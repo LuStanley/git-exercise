@@ -1,0 +1,9 @@
+<h1><strong> User List </strong></h1>
+
+
+<ul class="list-unstyled">
+  <li><h3><strong>Name</strong></h3></li>
+  <% for i in 0 ... User.count %>
+    <li><h4><strong><%= "user_#{i}" %></h4></strong></li>
+  <% end %>
+</ul>
